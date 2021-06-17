@@ -21,6 +21,7 @@
     size: 40%;
     
   }
+ 
   
 h1 {
     text-align: center;
@@ -90,5 +91,45 @@ fieldset{
   }  
 a:hover{
 color: red;
+background-color: rgb(233, 217, 187);
 
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  border-radius: 20px;
+  background-color: rgba(51, 51, 51, 0.39);
+  width:90% ;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+overflow: hidden;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(235, 144, 116);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0468aa;
+  color: rgb(243, 236, 236);
+}
+
+body{
+  font-family: 'Kalam', cursive;
+ 
+}
+h2{
+  text-decoration: underline;
 }
