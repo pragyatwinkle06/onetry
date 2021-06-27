@@ -133,3 +133,32 @@ body{
 h2{
   text-decoration: underline;
 }
+
+
+.sm-handle a{
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px ;
+    border-radius: 30px ;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.sm-handle a:hover{
+    background-color: rgb(30 30 30/25%);
+}
+
+.sm-handle a i{
+    margin: 5px;
+}
+
+.l-handle{
+    color:  #0077b5;
+}
+.i-handle{
+    color: #E1306C;
+}
+
+.t-handle{
+    color: #1DA1F2 ;
+}
